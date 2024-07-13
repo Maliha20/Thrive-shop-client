@@ -61,4 +61,5 @@
 - Node.js
 - npm
 
-## live-link-  https://thrive-shop.vercel.app/products
+## live-link-  https://thrive-shop.vercel.app
+
