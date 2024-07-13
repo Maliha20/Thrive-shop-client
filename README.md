@@ -61,8 +61,4 @@
 - Node.js
 - npm
 
-### Installation
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/fitness-ecommerce.git
-   cd fitness-ecommerce 
+## live-link-  https://thrive-shop.vercel.app/products
