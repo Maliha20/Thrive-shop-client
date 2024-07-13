@@ -24,12 +24,12 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "linear-gradient(40deg,#bfdbfe, #93c5fd, #bfdbfe)",
+          foreground: "linear-gradient(40deg,#bfdbfe, #93c5fd, #bfdbfe)",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT:  "linear-gradient(30deg, #8567AD, #961EEA)",
+          foreground: "linear-gradient(30deg, #8567AD, #961EEA)",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -80,6 +80,13 @@ module.exports = {
         'fade-out-zoom': 'fade-out-zoom 0.3s ease-in',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundImage:{
+        "primary-gradient": "linear-gradient(40deg,#bfdbfe, #93c5fd, #bfdbfe)",
+        "secondary-gradient": "linear-gradient(30deg, #D0F0C0, #93C572)",
+        "danger-gradient": "linear-gradient(30deg, #FDBCB4, #E23D28)",
+        "warning-gradient": "linear-gradient(30deg, #FFFDD0, #EEDC82)",
+        "notification":"linear-gradient(30deg, #8093f1, #8093f1)"
       },
     },
   },

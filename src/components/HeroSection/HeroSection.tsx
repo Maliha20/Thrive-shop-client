@@ -51,8 +51,8 @@ const HeroSection = () => {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-white rounded-full shadow-md hover:bg-blue-200" />
-      <CarouselNext className="absolute top-1/2 right-4 transform -translate-y-1/2 p-2 bg-white rounded-full shadow-md hover:bg-blue-200" />
+      <CarouselPrevious className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-primary-gradient rounded-full shadow-md hover:bg-blue-200" />
+      <CarouselNext className="absolute top-1/2 right-4 transform -translate-y-1/2 p-2 bg-primary-gradient rounded-full shadow-md hover:bg-blue-200" />
     </Carousel>
     </div>
    
